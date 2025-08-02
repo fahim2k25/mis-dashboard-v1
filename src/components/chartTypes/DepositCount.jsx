@@ -1,4 +1,4 @@
-import { Line, LineChart } from "recharts";
+import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
 
 
 const data = [
@@ -27,8 +27,14 @@ const data = [
 const DepositCount = () => {
     return (
         <div>
+            <h2 className="my-6 text-4xl font-bold">Number of Deposit Accounts</h2>
             <LineChart width={600} height={300} data={data}>
-                <Line dataKey="count"></Line>
+                <CartesianGrid></CartesianGrid>
+                <Line dataKey="count" name="Deposit A/C Count"></Line>
+                <XAxis dataKey="baseDate"></XAxis>
+                <YAxis></YAxis>
+                <Legend></Legend>
+                <Tooltip></Tooltip>
             </LineChart>
         </div>
     );

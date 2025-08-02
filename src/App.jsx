@@ -6,11 +6,8 @@ function App() {
 
   return (
     <>
-
       <Heading></Heading>
       <ChartBody></ChartBody>
-
-
     </>
   )
 }
