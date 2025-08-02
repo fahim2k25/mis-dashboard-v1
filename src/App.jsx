@@ -5,7 +5,7 @@ function App() {
   return (
     <>
 
-      <h1>MIS DASHBOARD</h1>
+      <h1 className='text-5xl font-bold'>MIS DASHBOARD</h1>
 
 
     </>
