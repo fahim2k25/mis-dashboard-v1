@@ -1,11 +1,12 @@
 import './App.css'
+import Heading from './components/Heading'
 
 function App() {
 
   return (
     <>
 
-      <h1 className='text-5xl font-bold'>MIS DASHBOARD</h1>
+      <Heading></Heading>
 
 
     </>
