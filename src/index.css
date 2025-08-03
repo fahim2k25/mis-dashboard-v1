@@ -3,3 +3,8 @@
 @plugin "daisyui" {
     themes: light --default;
 }
+
+.chartTitle {
+    color: brown;
+    background-color: burlywood;
+}

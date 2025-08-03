@@ -31,7 +31,7 @@ const data = [
 const LoanCount = () => {
     return (
         <div>
-            <h2 className="my-6 text-4xl font-bold">Number of Loan Accounts</h2>
+            <h2 className="my-6 text-4xl font-bold chartTitle">Number of Loan Accounts</h2>
             <LineChart width={600} height={300} data={data}>
                 <CartesianGrid></CartesianGrid>
                 <Line dataKey="count" name="Loan A/C Count"></Line>
